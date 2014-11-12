@@ -47,6 +47,7 @@ You can pass an optional options object to the `revPointer` function.
 ```
 
 `format` is the format of the pointer file. Valid values are `json` and `plain`. Defaults to `json`.
+
 `ext` is the string to append to the original filename to create the pointer file. Defaults to `.rev.json` if the format is `json` and `.rev` if the format is `plain`.
 
 ## Install
