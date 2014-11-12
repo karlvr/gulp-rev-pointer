@@ -1,0 +1,19 @@
+{
+	"name": "gulp-rev-pointer",
+	"description": "A gulp plugin to augment gulp-rev or gulp-rev-all. It creates a file using the unrevved filename that contains (points to) the revved filename.",
+	"version": "0.0.1",
+	"author": {
+		"name": "Karl von Randow"
+	},
+	"keywords": [
+		"gulp",
+		"gulpplugin",
+		"rev"
+	],
+	"dependencies": {
+		"gulp-util": "~2.2.14",
+		"through2": "~0.4.0",
+		"lodash": "~2.4.1"
+	},
+	"license": "Apache 2"
+}
