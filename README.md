@@ -30,7 +30,7 @@ var revPointer = require('gulp-rev-pointer');
 
 gulp.src('js/**')
 	.pipe(uglify())
-	.pipe(revAll())
+	.pipe(revAll.revision())
 	.pipe(revPointer())
 	.pipe(gulp.dest('build'));
 ```
