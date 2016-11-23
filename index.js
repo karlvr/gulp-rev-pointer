@@ -27,7 +27,7 @@ module.exports = function(options) {
 		this.push(file);
 
 		/* Only handle revved files */
-		if (file.revOrigPath) {
+		if (file.revOrigPath != file.path) {
 			var contents;
 			if (options.format === 'plain') {
 				contents = new Buffer(path.basename(file.path));
