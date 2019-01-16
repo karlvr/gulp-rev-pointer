@@ -11,13 +11,13 @@
 		"rev"
 	],
 	"dependencies": {
-		"gulp-util": "~2.2.14",
-		"through2": "~0.4.0",
-		"lodash": "~2.4.1"
+		"gulp-util": "^3.0.8",
+		"lodash": "^4.7.11",
+		"through2": "^3.0.0"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url" : "https://github.com/karlvr/gulp-rev-pointer.git"
+		"url": "https://github.com/karlvr/gulp-rev-pointer.git"
 	}
 }
